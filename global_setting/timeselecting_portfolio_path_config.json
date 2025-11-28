@@ -1,0 +1,32 @@
+{
+    "components": {
+        "data_source": {
+            "mode": "sql"
+        },
+        "database": {
+            "database1": {
+                "host": "rm-bp1o6we7s3o1h76x1to.mysql.rds.aliyuncs.com",
+
+                "port": 3306,
+                "user": "wc",
+                "password": "Abcd1234#",
+                "charset": "utf8mb4"
+            }
+        }
+    },
+    "main_folder": [
+        {
+            "folder_type": "config_folder",
+            "path": "TimeSelecting_portfolio\\global_setting",
+            "disk": "D"
+        }
+    ],
+    "sub_folder": [
+
+        {
+            "data_type": "L0_signalData_prod",
+            "database": "Signal",
+            "sql_sheet": "timeselecting_l0_prod"
+        }
+    ]
+}
