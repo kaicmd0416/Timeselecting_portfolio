@@ -27,6 +27,12 @@
             "data_type": "L0_signalData_prod",
             "database": "Signal",
             "sql_sheet": "timeselecting_l0_prod"
+        },
+
+        {
+            "data_type": "portfolio",
+            "database": "portfolio_new",
+            "sql_sheet": "portfolio"
         }
     ]
 }
